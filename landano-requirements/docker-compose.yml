@@ -50,9 +50,6 @@ services:
       # Custom skin: Minerva
       - ./skins/minerva:/var/www/html/skins/MinervaNeue:rw
 
-      # Avoid Cirrus errors.
-      - ./CirrusSearch.php:/var/www/html/LocalSettings.d/CirrusSearch.php
-
     networks:
       default:
         aliases:

@@ -20,6 +20,8 @@
 /*******************************/
 #ini_set( 'display_errors', 0 );
 
+#$wgDebugToolbar = true;
+
 $wgFavicon = "$wgScriptPath/assets/logo/favicon.ico";
 $wgLogo = "$wgScriptPath/assets/logo/wiki.png";
 
